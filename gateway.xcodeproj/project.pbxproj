@@ -10,6 +10,12 @@
 		0F55A72520B75DA90021EE2D /* gateway.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F55A71B20B75DA90021EE2D /* gateway.framework */; };
 		0F55A72A20B75DA90021EE2D /* gatewayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F55A72920B75DA90021EE2D /* gatewayTests.swift */; };
 		0F55A72C20B75DA90021EE2D /* gateway.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F55A71E20B75DA90021EE2D /* gateway.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F55A73D20B762450021EE2D /* EvergentGatewayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F55A73C20B762450021EE2D /* EvergentGatewayController.swift */; };
+		0F55A73F20B762770021EE2D /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F55A73E20B762770021EE2D /* Storyboard.storyboard */; };
+		0F55A7F520B7DDA70021EE2D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F55A7F420B7DDA70021EE2D /* Bolts.framework */; };
+		0F55A7F720B7DDBE0021EE2D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F55A7F620B7DDBE0021EE2D /* FBSDKCoreKit.framework */; };
+		0F55A7F920B7DDE40021EE2D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F55A7F820B7DDE40021EE2D /* FBSDKLoginKit.framework */; };
+		0F55A7FC20BF1E1D0021EE2D /* EvergentGatewayAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F55A7FB20BF1E1D0021EE2D /* EvergentGatewayAppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,12 @@
 		0F55A72420B75DA90021EE2D /* gatewayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gatewayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F55A72920B75DA90021EE2D /* gatewayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gatewayTests.swift; sourceTree = "<group>"; };
 		0F55A72B20B75DA90021EE2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F55A73C20B762450021EE2D /* EvergentGatewayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvergentGatewayController.swift; sourceTree = "<group>"; };
+		0F55A73E20B762770021EE2D /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		0F55A7F420B7DDA70021EE2D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Downloads/FacebookSDKs-iOS-4/Bolts.framework"; sourceTree = "<group>"; };
+		0F55A7F620B7DDBE0021EE2D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		0F55A7F820B7DDE40021EE2D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../Downloads/FacebookSDKs-iOS-4/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		0F55A7FB20BF1E1D0021EE2D /* EvergentGatewayAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvergentGatewayAppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +48,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F55A7F920B7DDE40021EE2D /* FBSDKLoginKit.framework in Frameworks */,
+				0F55A7F720B7DDBE0021EE2D /* FBSDKCoreKit.framework in Frameworks */,
+				0F55A7F520B7DDA70021EE2D /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +68,7 @@
 		0F55A71120B75DA90021EE2D = {
 			isa = PBXGroup;
 			children = (
+				0F55A73520B75EBF0021EE2D /* Frameworks */,
 				0F55A71D20B75DA90021EE2D /* gateway */,
 				0F55A72820B75DA90021EE2D /* gatewayTests */,
 				0F55A71C20B75DA90021EE2D /* Products */,
@@ -73,6 +89,9 @@
 			children = (
 				0F55A71E20B75DA90021EE2D /* gateway.h */,
 				0F55A71F20B75DA90021EE2D /* Info.plist */,
+				0F55A73C20B762450021EE2D /* EvergentGatewayController.swift */,
+				0F55A73E20B762770021EE2D /* Storyboard.storyboard */,
+				0F55A7FB20BF1E1D0021EE2D /* EvergentGatewayAppDelegate.swift */,
 			);
 			path = gateway;
 			sourceTree = "<group>";
@@ -84,6 +103,16 @@
 				0F55A72B20B75DA90021EE2D /* Info.plist */,
 			);
 			path = gatewayTests;
+			sourceTree = "<group>";
+		};
+		0F55A73520B75EBF0021EE2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F55A7F820B7DDE40021EE2D /* FBSDKLoginKit.framework */,
+				0F55A7F620B7DDBE0021EE2D /* FBSDKCoreKit.framework */,
+				0F55A7F420B7DDA70021EE2D /* Bolts.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,12 +172,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Evergent;
 				TargetAttributes = {
 					0F55A71A20B75DA90021EE2D = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = Z7EAZWK96N;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 					0F55A72320B75DA90021EE2D = {
@@ -181,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F55A73F20B762770021EE2D /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F55A7FC20BF1E1D0021EE2D /* EvergentGatewayAppDelegate.swift in Sources */,
+				0F55A73D20B762450021EE2D /* EvergentGatewayController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,15 +263,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -284,15 +325,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -324,44 +373,52 @@
 		0F55A73020B75DA90021EE2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Z7EAZWK96N;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "/Users/itsryry/Downloads/FacebookSDKs-iOS-4";
 				INFOPLIST_FILE = gateway/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evergent.gateway;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		0F55A73120B75DA90021EE2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = Z7EAZWK96N;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "/Users/itsryry/Downloads/FacebookSDKs-iOS-4";
 				INFOPLIST_FILE = gateway/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evergent.gateway;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		0F55A73320B75DA90021EE2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = Z7EAZWK96N;
 				INFOPLIST_FILE = gatewayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -374,6 +431,7 @@
 		0F55A73420B75DA90021EE2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = Z7EAZWK96N;
 				INFOPLIST_FILE = gatewayTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -402,6 +460,7 @@
 				0F55A73120B75DA90021EE2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F55A73220B75DA90021EE2D /* Build configuration list for PBXNativeTarget "gatewayTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +469,7 @@
 				0F55A73420B75DA90021EE2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
